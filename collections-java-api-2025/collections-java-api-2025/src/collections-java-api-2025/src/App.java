@@ -1,20 +1,20 @@
 
-// import list.CarrinhoDeCompras;
-// import list.Ordenacao.OrdenccaoPessoa;
+import list.CarrinhoDeCompras;
+import list.Ordenacao.OrdenccaoPessoa;
 
 
 public class App {
     public static void main(String[] args) {
 
 
-// OrdenccaoPessoa ordenccaoPessoa = new OrdenccaoPessoa();
+OrdenccaoPessoa ordenccaoPessoa = new OrdenccaoPessoa();
 
-// ordenccaoPessoa.adcionarPessoa("Nome 1", 20, 1.56);
-// ordenccaoPessoa.adcionarPessoa("Nome 2", 30, 1.80);
-// ordenccaoPessoa.adcionarPessoa("Nome 3", 25, 1.70);
-// ordenccaoPessoa.adcionarPessoa("Nome 4", 17, 1.56);
+ordenccaoPessoa.adcionarPessoa("Nome 1", 20, 1.56);
+ordenccaoPessoa.adcionarPessoa("Nome 2", 30, 1.80);
+ordenccaoPessoa.adcionarPessoa("Nome 3", 25, 1.70);
+ordenccaoPessoa.adcionarPessoa("Nome 4", 17, 1.56);
 
-// System.out.println(ordenccaoPessoa.pessoaList);
+System.out.println(ordenccaoPessoa.pessoaList);
 
 //System.out.println(ordenccaoPessoa.ordenadoPorIdade());
 
